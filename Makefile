@@ -8,13 +8,13 @@ include $(TOPDIR)/rules.mk
 #PKG_RELEASE:=1
 
 
-PKG_NAME:=node-v4.2.6
-PKG_VERSION:=v4.2.6
+PKG_NAME:=node-v8.9.4
+PKG_VERSION:=v8.9.4
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME).tar.gz
-PKG_SOURCE_URL:=https://nodejs.org/dist/v4.2.6/
-PKG_MD5SUM:=b1287c356e904954da7e0c6435ff9948
+PKG_SOURCE_URL:=https://nodejs.org/dist/v8.9.4/
+#PKG_MD5SUM:=b1287c356e904954da7e0c6435ff9948
 PKG_MAINTAINER:=Richard-Qian
 
 PKG_INSTALL:=1
